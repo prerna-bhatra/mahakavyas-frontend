@@ -11,7 +11,7 @@ import * as Speech from 'expo-speech'; // Import the Speech module
 
 
 export default function TabTwoScreen() {
-  const route = useRoute();
+  const route:any = useRoute();
   const { itemId } = route.params; // Access the itemId from route.params
 
   const [itemData, setItemData] = useState([]);
